@@ -41,10 +41,10 @@ function App() {
   return (
     <>
       <div className="max-w-[800px] flex flex-col gap-8 mx-auto my-0 items-center">
-        <div className="text-center text-2xl transition text-green-100">
+        <div className="text-center text-2xl transition bg-green-200">
           {isWinner && "Well Done! You won! Wanna play again? Refresh the page!"}
             {isLoser && (
-            <span>
+            <span className="bg-red-200">
               You lost! The word was: <span className="font-bold text-green-400">{wordToGuess}</span>. Wanna play again? Refresh the page!
             </span>
             )}
