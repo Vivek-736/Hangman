@@ -49,7 +49,7 @@ function App() {
             </span>
             )}
             {!isWinner && !isLoser && (
-              <div className="bg-clip-text text-transparent bg-gradient-to-b from-green-400 via-purple-400 to-sky-400 font-bold">
+              <div className="bg-clip-text text-transparent bg-gradient-to-b from-green-400 via-purple-400 to-sky-400 font-bold text-sm md:text-2xl">
                 Welcome to Hangman game! Use Your Six Guesses Wisely!
               </div>
             )}
